@@ -1105,7 +1105,7 @@ return /******/ (function(modules) { // webpackBootstrap
       var hookEvent = {
         attrName: '',
         attrValue: '',
-        keepAttr: true,
+        keepAttr: false,
         allowedAttributes: ALLOWED_ATTR
       };
       l = attributes.length;
