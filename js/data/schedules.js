@@ -106,6 +106,11 @@ function generateNames() {
     return names;
 }
 
+function generateRandomSchedule(calendar, renderStart, renderEnd) {
+    var schedule = new ScheduleInfo();
+
+    ScheduleList.push(schedule);
+}
 
 function generateSchedule(viewName, renderStart, renderEnd) {
     ScheduleList = [];

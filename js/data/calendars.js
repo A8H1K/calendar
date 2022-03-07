@@ -43,7 +43,7 @@ function hexToRGBA(hex) {
 
 (function() {
     var calendar;
-    var id = 900;
+    var id = 0;
 
     calendar = new CalendarInfo();
     id += 1;
@@ -53,5 +53,35 @@ function hexToRGBA(hex) {
     calendar.bgColor = 'gray';
     calendar.dragBgColor = '#9e5fff';
     calendar.borderColor = 'gray';
+    addCalendar(calendar);
+})();
+
+(function() {
+    var calendar;
+    var id = 1;
+
+    calendar = new CalendarInfo();
+    id += 1;
+    calendar.id = String(id);
+    calendar.name = 'Work';
+    calendar.color = '#ffffff';
+    calendar.bgColor = '#9e5fff';
+    calendar.dragBgColor = '#9e5fff';
+    calendar.borderColor = '#9e5fff';
+    addCalendar(calendar);
+})();
+
+(function() {
+    var calendar;
+    var id = 3;
+
+    calendar = new CalendarInfo();
+    id += 1;
+    calendar.id = String(id);
+    calendar.name = 'School';
+    calendar.color = '#ffffff';
+    calendar.bgColor = 'blue';
+    calendar.dragBgColor = 'blue';
+    calendar.borderColor = 'blue';
     addCalendar(calendar);
 })();
