@@ -43,15 +43,15 @@ function hexToRGBA(hex) {
 
 (function() {
     var calendar;
-    var id = 0;
+    var id = 900;
 
     calendar = new CalendarInfo();
     id += 1;
     calendar.id = String(id);
     calendar.name = 'Personal';
     calendar.color = '#ffffff';
-    calendar.bgColor = '#9e5fff';
+    calendar.bgColor = 'gray';
     calendar.dragBgColor = '#9e5fff';
-    calendar.borderColor = '#9e5fff';
+    calendar.borderColor = 'gray';
     addCalendar(calendar);
 })();
